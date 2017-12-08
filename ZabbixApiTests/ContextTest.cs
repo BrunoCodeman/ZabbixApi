@@ -31,7 +31,7 @@ namespace ZabbixApiTests
         [Fact]
         public void MustLoginWithRightUserData()
         {
-            var url = "http://172.21.0.25/zabbix/api_jsonrpc.php";
+            var url = "http://MyZabbixServer/zabbix/api_jsonrpc.php";
             var username = "Admin";
             var password = "zabbix";
 
